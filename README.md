@@ -52,4 +52,5 @@ This project is using the GNU General Public License v3.0.
 
 ## Acknowledgements
 
+Ryan Teoh (@ryantzj)
 
