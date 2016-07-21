@@ -2,7 +2,7 @@
 
 ## Project Description
 
-The OWASP Mobile Testing Guide (OMTG) will be similar to the OWASP Web Application Testing Guide, but will have speci c test cases only applicable to mobile platforms. In order to give practical guidance to developers, security researches and penetration testers, a hacking playground was created that consists of different mobile App’s that contain different vulnerabilities that map to the OMTG test cases. Every test case described in the OMTG will therefore be implemented in an Android and iOS App. This has two advantages:
+The OWASP Mobile Testing Guide (OMTG) will be similar to the OWASP Web Application Testing Guide, but will have specific test cases only applicable to mobile platforms. In order to give practical guidance to developers, security researches and penetration testers, a hacking playground was created that consists of different mobile App’s that contain different vulnerabilities that map to the OMTG test cases. Every test case described in the OMTG will therefore be implemented in an Android and iOS App. This has two advantages:
 - A developer can identify vulnerable code in the provided App’s and can see the implications and risks if such patterns are used and can look for the best practices in the OMTG to mitigate the vulnerabilities.
 - Penetration testers / security researchers can identify bad practices, dangerous methods and classes they should look  rst when assessing a Mobile App and can gain more knowledge through the information provided in the OMTG.
 
@@ -33,4 +33,21 @@ For the future the following enhancements are planned:
 * Create an iOS App (including one with code obfuscation) that also includes the different test cases of the OWASP Mobile Testing Guide
 * Maintain the Android / iOS App in case the OWASP Mobile Testing Guide is getting updated, e.g. new best practices are available or new vulnerabilities are disclosed
     
+
+## Author 
+
+Sven Schleier
+Senior Security Consultant
+Vantage Point Security 
+
+sven@vantagepoint.sg
+
+
+## License
+
+This project is using the GNU General Public License v3.0. 
+
+
+## Acknowledgements
+
 
