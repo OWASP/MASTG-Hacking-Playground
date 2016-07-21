@@ -24,9 +24,10 @@
  *   apps/samples/hello-jni/project/src/com/example/hellojni/HelloJni.java
  */
 
+
 JNIEXPORT jstring JNICALL
-Java_sg_vp_owasp_1mobile_myFirstBrokenApp_OMTG_1DATAST_1004_1SQLite_1Encrypted_stringFromJNI(
+Java_sg_vp_owasp_1mobile_OMTG_1Android_OMTG_1DATAST_1004_1SQLite_1Encrypted_stringFromJNI(
         JNIEnv *env, jobject instance) {
 
-    return (*env)->NewStringUTF(env, "S3cr3tString!!!");
-}
+        return (*env)->NewStringUTF(env, "S3cr3tString!!!");
+    }

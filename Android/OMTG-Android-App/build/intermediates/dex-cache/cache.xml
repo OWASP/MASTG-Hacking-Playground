@@ -1,2 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/tnayr/Work/andorid_dev/OMTG-Hacking-Playground/Android/OMTG-Android-App/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/Users/tnayr/Work/andorid_dev/OMTG-Hacking-Playground/Android/OMTG-Android-App/app/build/intermediates/pre-dexed/arm/debug/com.android.support-support-v4-23.3.0_d1a9b0b7e1d63e08d879a8cbc9322705c0820b4a.jar" />
+    </item>
+    <item
+        jar="/Users/tnayr/Work/andorid_dev/OMTG-Hacking-Playground/Android/OMTG-Android-App/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/Users/tnayr/Work/andorid_dev/OMTG-Hacking-Playground/Android/OMTG-Android-App/app/build/intermediates/pre-dexed/arm/debug/com.android.support-design-23.1.1_6f26a199a2c5f081c5cdea6d9a595b27c74b1c34.jar" />
+    </item>
+    <item
+        jar="/Users/tnayr/Work/andorid_dev/OMTG-Hacking-Playground/Android/OMTG-Android-App/app/libs/sqlcipher.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9bbda56959cfe0a300ea789d47259c0e911d5d75">
+        <dex dex="/Users/tnayr/Work/andorid_dev/OMTG-Hacking-Playground/Android/OMTG-Android-App/app/build/intermediates/pre-dexed/arm/debug/sqlcipher_5ddb214dde59ae8ca7fdc0539845b4f341fe2da4.jar" />
+    </item>
+    <item
+        jar="/Users/tnayr/Work/andorid_dev/OMTG-Hacking-Playground/Android/OMTG-Android-App/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/Users/tnayr/Work/andorid_dev/OMTG-Hacking-Playground/Android/OMTG-Android-App/app/build/intermediates/pre-dexed/arm/debug/com.android.support-recyclerview-v7-23.1.1_92dce4f26091b3c0826d5696e2478964ae345302.jar" />
+    </item>
+    <item
+        jar="/Users/tnayr/Work/andorid_dev/OMTG-Hacking-Playground/Android/OMTG-Android-App/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/Users/tnayr/Work/andorid_dev/OMTG-Hacking-Playground/Android/OMTG-Android-App/app/build/intermediates/pre-dexed/arm/debug/internal_impl-23.3.0_2366485dcfddabbcf98226371da35003a104ce0f.jar" />
+    </item>
+    <item
+        jar="/Users/tnayr/Work/andorid_dev/OMTG-Hacking-Playground/Android/OMTG-Android-App/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/tnayr/Work/andorid_dev/OMTG-Hacking-Playground/Android/OMTG-Android-App/app/build/intermediates/pre-dexed/arm/debug/com.android.support-appcompat-v7-23.1.1_ec6401ff84fb24ccdc3a7467848cf113bf4d8288.jar" />
+    </item>
+    <item
+        jar="/Users/tnayr/Work/andorid_dev/OMTG-Hacking-Playground/Android/OMTG-Android-App/app/libs/guava-r09.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ef348209d301a97a96a0f57954d54f80244a1614">
+        <dex dex="/Users/tnayr/Work/andorid_dev/OMTG-Hacking-Playground/Android/OMTG-Android-App/app/build/intermediates/pre-dexed/arm/debug/guava-r09_6114f0a5daee45bab0e41c2f229978aca61c2a6a.jar" />
+    </item>
+    <item
+        jar="/Users/tnayr/Work/andorid_dev/OMTG-Hacking-Playground/Android/OMTG-Android-App/app/build/intermediates/exploded-aar/ch.acra/acra/4.9.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d03cbe00a6703cfa62ae868707af59d41aff2140">
+        <dex dex="/Users/tnayr/Work/andorid_dev/OMTG-Hacking-Playground/Android/OMTG-Android-App/app/build/intermediates/pre-dexed/arm/debug/ch.acra-acra-4.9.0_af5c4217ae261e10d52bc78a80da0ece367c0a44.jar" />
+    </item>
+    <item
+        jar="/Users/tnayr/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/Users/tnayr/Work/andorid_dev/OMTG-Hacking-Playground/Android/OMTG-Android-App/app/build/intermediates/pre-dexed/arm/debug/support-annotations-23.3.0_9be441380f7e5113f72562c142d0d7cd1c90413c.jar" />
+    </item>
+    <item
+        jar="/Users/tnayr/Work/andorid_dev/OMTG-Hacking-Playground/Android/OMTG-Android-App/app/libs/commons-codec.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="fd32786786e2adb664d5ecc965da47629dca14ba">
+        <dex dex="/Users/tnayr/Work/andorid_dev/OMTG-Hacking-Playground/Android/OMTG-Android-App/app/build/intermediates/pre-dexed/arm/debug/commons-codec_161c9e66b948625fcc36227223da380cc1189b0b.jar" />
+    </item>
+
+</items>
