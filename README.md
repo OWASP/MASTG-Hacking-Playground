@@ -37,7 +37,9 @@ For the future the following enhancements are planned:
 ## Author 
 
 Sven Schleier
+
 Senior Security Consultant
+
 Vantage Point Security 
 
 sven@vantagepoint.sg
