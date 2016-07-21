@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sqlcipher">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/sqlcipher.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
