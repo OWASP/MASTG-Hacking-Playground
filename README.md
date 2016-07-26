@@ -24,7 +24,7 @@ In order to get the App running, besides the Android SDK, also the Android NDK n
 
 Screenshot:
 
-![Test cases mapped to OMTG](https://raw.githubusercontent.com/OWASP/OMTG-Hacking-Playground/master/Android/OMTG-Android-App/screenshots/screenshot_0.png =250x "Test cases mapped to OMTG" )
+![Test cases mapped to OMTG](https://raw.githubusercontent.com/OWASP/OMTG-Hacking-Playground/master/Android/OMTG-Android-App/screenshots/screenshot_0.png "Test cases mapped to OMTG" )
 
 
 ## Mobile Apps
