@@ -21,14 +21,13 @@ The Android App is located in https://github.com/OWASP/OMTG-Hacking-Playground/t
 
 In order to get the App running, besides the Android SDK, also the Android NDK needs to be availabe. If the NDK is not available, Android Studio will ask to download or specify a local path for the NDK when the project is opened. If parts of the SDK are missing, a prompt should show up to install the additional requriments. Afterwards the App can be build and can be run in an emulator or mobile device. 
 
+Check the [Wiki](https://github.com/OWASP/OMTG-Hacking-Playground/wiki) for a description of all available test cases.
 
 Screenshot:
 
 ![Test cases mapped to OMTG](https://raw.githubusercontent.com/OWASP/OMTG-Hacking-Playground/master/Android/OMTG-Android-App/screenshots/screenshot_0.png "Test cases mapped to OMTG" )
 
 
-
-Check the [Wiki](https://github.com/OWASP/OMTG-Hacking-Playground/wiki).
 
 ## Mobile Apps
 
@@ -44,7 +43,7 @@ For the future the following enhancements are planned:
 * Review the test cases
 * A branch of the Android App will be created with Code Obfuscation, by using ProGuard to show developers how to enable code obfuscation and how it looks like once it's activated but it's also a playground to show penetration testers/security researches ways to reverse engineer the code.
 * Keep the documentation up-to-date and the link to the OMTG
-* Presentation of the OWASP Mobile Testing Guide (status update) and Hacking Playground at Null Security in August 2016 at the Singapore Meetup.
+* Presentation of the OWASP Mobile Testing Guide (status update) and Hacking Playground at Null Security in September 2016 at the Singapore Meetup.
 
 ### Long Term (3-12 months)
 * Create an iOS App (including one with code obfuscation) that also includes the different test cases of the OWASP Mobile Testing Guide
