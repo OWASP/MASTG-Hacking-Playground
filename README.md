@@ -26,7 +26,7 @@ Screenshot:
 
 ![Test cases mapped to OMTG](https://raw.githubusercontent.com/OWASP/OMTG-Hacking-Playground/master/Android/OMTG-Android-App/screenshots/screenshot_0.png "Test cases mapped to OMTG" )
 
-Check the ![Wiki](https://github.com/OWASP/OMTG-Hacking-Playground/wiki)].
+Check the ![Wiki](https://github.com/OWASP/OMTG-Hacking-Playground/wiki "Wiki").
 
 ## Mobile Apps
 
