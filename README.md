@@ -9,9 +9,15 @@ The OWASP Mobile Testing Guide (OMTG) will be similar to the OWASP Web Applicati
 
 It is also encouraged to use the App(s) for education purpose during trainings and workshops. 
 
-Current Draft of the OWASP Mobile Testing Guide (OMTG) can be found here: https://docs.google.com/document/d/132Ose0jdQwN6Z_Fp0VOJtVdGCufIwligwmf6oT0lmK8/edit#
- 
-If you do not have access to the OMTG yet, please write a mail to sven@vantagepoint.sg. 
+Current Draft of the OWASP Mobile Testing Guide (OMTG) can be found here https://github.com/OWASP/owasp-mstg/.
+
+If you want to contribute to the OMTG, please go to the OWASP Slack Channel. You can register here http://owasp.herokuapp.com/ and can find us in the channel #project-mobile_omtg.
+
+## Andorid App build (APK)
+
+APK files of the Android App can be found in the following path: Android/OMTG-Android-App/app/build/outputs/apk/
+https://github.com/OWASP/OMTG-Hacking-Playground/tree/master/Android/OMTG-Android-App/app/build/outputs/apk
+
 
 ## Installation 
 
