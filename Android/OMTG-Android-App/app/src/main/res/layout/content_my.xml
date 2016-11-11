@@ -13,6 +13,92 @@
     android:layout_marginTop="4dp"
     android:paddingTop="60dp">
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_OMTG_DATAST_001_BadEncryption"
+        android:onClick="OMTG_DATAST_001_BadEncryption" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_OMTG_DATAST_001_KeyChain"
+        android:onClick="OMTG_DATAST_001_KeyChain" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_OMTG_DATAST_001_KeyStore"
+        android:onClick="OMTG_DATAST_001_KeyStore" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_OMTG_DATAST_001_InternalStorage"
+        android:onClick="OMTG_DATAST_001_InternalStorage" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_OMTG_DATAST_001_ExternalStorage"
+        android:onClick="OMTG_DATAST_001_ExternalStorage" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_OMTG_DATAST_001_SharedPreferences"
+        android:onClick="OMTG_DATAST_001_SharedPreferences" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_OMTG_DATAST_001_SQLite"
+        android:onClick="OMTG_DATAST_001_SQLite_Not_Encrypted" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_OMTG_DATAST_001_SQLiteEncrypted"
+        android:onClick="OMTG_DATAST_001_SQLite_Encrypted" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_OMTG_DATAST_002_Logging"
+        android:onClick="OMTG_DATAST_002_Logging" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_OMTG_DATAST_004_3rd_Party"
+        android:onClick="OMTG_DATAST_004_3rd_Party" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_OMTG_DATAST_005_Keyboard_Cache"
+        android:onClick="OMTG_DATAST_005_Keyboard_Cache" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_OMTG_DATAST_006_Clipboard"
+        android:onClick="OMTG_DATAST_006_Clipboard" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_OMTG_DATAST_011_Memory"
+        android:onClick="OMTG_DATAST_011_Memory" />
+
+
 
     <Button
         android:layout_width="match_parent"
@@ -50,72 +136,6 @@
         android:text="@string/button_OMTG_CODING_003_Code_Injection"
         android:onClick="OMTG_CODING_004_Code_Injection" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/button_OMTG_DATAST_001_BadEncryption"
-        android:onClick="OMTG_DATAST_001_BadEncryption" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/button_OMTG_DATAST_001_KeyChain"
-        android:onClick="OMTG_DATAST_001_KeyChain" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/button_OMTG_DATAST_001_KeyStore"
-        android:onClick="OMTG_DATAST_001_KeyStore" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/button_OMTG_DATAST_002_Logging"
-        android:onClick="OMTG_DATAST_002_Logging" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/button_OMTG_DATAST_004_SharedPreferences"
-        android:onClick="OMTG_DATAST_004_SharedPreferences" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/button_OMTG_DATAST_004_InternalStorage"
-        android:onClick="OMTG_DATAST_004_InternalStorage" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/button_OMTG_DATAST_004_ExternalStorage"
-        android:onClick="OMTG_DATAST_004_ExternalStorage" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/button_OMTG_DATAST_004_SQLite"
-        android:onClick="OMTG_DATAST_004_SQLite_Not_Encrypted" />
-
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/button_OMTG_DATAST_004_SQLiteEncrypted"
-        android:onClick="OMTG_DATAST_004_SQLite_Encrypted" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/button_OMTG_DATAST_005_3rd_Party"
-        android:onClick="OMTG_DATAST_005_3rd_Party" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/button_OMTG_DATAST_007_Memory"
-        android:onClick="OMTG_DATAST_007_Memory" />
 
 </LinearLayout>
 </ScrollView>

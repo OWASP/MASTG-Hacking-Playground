@@ -101,44 +101,60 @@ public class MyActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void OMTG_DATAST_001_InternalStorage(View view) {
+        Intent intent = new Intent(this, OMTG_DATAST_001_InternalStorage.class);
+        startActivity(intent);
+    }
+
+    public void OMTG_DATAST_001_ExternalStorage(View view) {
+        Intent intent = new Intent(this, OMTG_DATAST_001_ExternalStorage.class);
+        startActivity(intent);
+    }
+
+    public void OMTG_DATAST_001_SharedPreferences(View view) {
+        Intent intent = new Intent(this, OMTG_DATAST_001_SharedPreferences.class);
+        startActivity(intent);
+    }
+
+
+
+    public void OMTG_DATAST_001_SQLite_Not_Encrypted(View view) {
+        Intent intent = new Intent(this, OMTG_DATAST_001_SQLite_Not_Encrypted.class);
+        startActivity(intent);
+    }
+
+
+    public void OMTG_DATAST_001_SQLite_Encrypted(View view) {
+        Intent intent = new Intent(this, OMTG_DATAST_001_SQLite_Encrypted.class);
+        startActivity(intent);
+    }
+
+
     public void OMTG_DATAST_002_Logging(View view) {
         Intent intent = new Intent(this, OMTG_DATAST_002_Logging.class);
         startActivity(intent);
     }
 
-    public void OMTG_DATAST_004_SharedPreferences(View view) {
-        Intent intent = new Intent(this, OMTG_DATAST_004_SharedPreferences.class);
-        startActivity(intent);
-    }
 
-    public void OMTG_DATAST_004_InternalStorage(View view) {
-        Intent intent = new Intent(this, OMTG_DATAST_004_InternalStorage.class);
-        startActivity(intent);
-    }
-
-    public void OMTG_DATAST_004_ExternalStorage(View view) {
-        Intent intent = new Intent(this, OMTG_DATAST_004_ExternalStorage.class);
+    public void OMTG_DATAST_004_3rd_Party(View view) {
+        Intent intent = new Intent(this, OMTG_DATAST_004_3rd_Party.class);
         startActivity(intent);
     }
 
 
-    public void OMTG_DATAST_004_SQLite_Not_Encrypted(View view) {
-        Intent intent = new Intent(this, OMTG_DATAST_004_SQLite_Not_Encrypted.class);
+    public void OMTG_DATAST_005_Keyboard_Cache(View view) {
+        Intent intent = new Intent(this, OMTG_DATAST_005_Keyboard_Cache.class);
         startActivity(intent);
     }
 
-    public void OMTG_DATAST_004_SQLite_Encrypted(View view) {
-        Intent intent = new Intent(this, OMTG_DATAST_004_SQLite_Encrypted.class);
+
+    public void OMTG_DATAST_006_Clipboard(View view) {
+        Intent intent = new Intent(this, OMTG_DATAST_006_Clipboard.class);
         startActivity(intent);
     }
 
-    public void OMTG_DATAST_005_3rd_Party(View view) {
-        Intent intent = new Intent(this, OMTG_DATAST_005_3rd_Party.class);
-        startActivity(intent);
-    }
-
-    public void OMTG_DATAST_007_Memory(View view) {
-        Intent intent = new Intent(this, OMTG_DATAST_007_Memory.class);
+    public void OMTG_DATAST_011_Memory(View view) {
+        Intent intent = new Intent(this, OMTG_DATAST_011_Memory.class);
         startActivity(intent);
     }
 }

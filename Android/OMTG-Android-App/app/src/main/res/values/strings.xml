@@ -20,7 +20,6 @@
     <string name="button_activity_omtg__datast_001__BadEncryption_Password">Verify Password</string>
 
 
-
     <string name="button_OMTG_DATAST_001_KeyChain">OMTG-DATAST-001-KeyChain</string>
     <string name="title_activity_omtg__datast_001__key_chain">OMTG_DATAST_001_KeyChain</string>
     <string name="textview_OMTG_DATAST_001_Description">
@@ -40,6 +39,43 @@
         This testcase shows the best practice for creating securely a keypair with the KeyStore and use the keys to encrypt/decrypt a string.
     </string>
 
+    <string name="title_activity_omtg__datast_004__external_storage">OMTG_DATAST_001_ExternalStorage</string>
+    <string name="button_OMTG_DATAST_001_ExternalStorage">OMTG_DATAST_001_ExternalStorage</string>
+    <string name="textview_OMTG_DATAST_001_ExternalStorage">
+        <b>External Storage Testcase</b>\n
+        A new external file has been created. Look for something interesting in it.
+    </string>
+
+
+    <string name="title_activity_omtg__datast_004__internal_storage">OMTG_DATAST_001_InternalStorage</string>
+    <string name="button_OMTG_DATAST_001_InternalStorage">OMTG_DATAST_001_InternalStorage</string>
+    <string name="textview_OMTG_DATAST_001_InternalStorage">
+        <b>Internal Storage Testcase</b>\n
+        A new internal file has been created. Look for something interesting in it.
+    </string>
+
+    <string name="title_activity_omtg__datast_004__sharedpreferences">OMTG_DATAST_001</string>
+    <string name="button_OMTG_DATAST_001_SharedPreferences">OMTG-DATAST-001-Shared Preferences</string>
+    <string name="textview_OMTG_DATAST_001_SharedPreferences">
+        <b>Shared Preferences Testcase</b>\n
+        A new shared preference file has been created. Look for something interesting in it.
+    </string>
+
+    <string name="title_activity_omtg__datast_004__sqlite">OMTG_DATAST_001_SQLite</string>
+    <string name="button_OMTG_DATAST_001_SQLite">OMTG_DATAST_001_SQLite</string>
+    <string name="textview_OMTG_DATAST_001_SQLite">
+        <b>SQLite Testcase</b>\n
+        A new SQLite database has been created. Look for something interesting in it.
+    </string>
+
+    <string name="title_activity_omtg__datast_004__sqlite__secure">OMTG_DATAST_004_SQLite_Secure
+    </string>
+    <string name="title_activity_omtg__datast_004__sqliteSecure">OMTG_DATAST_001_SQLite-Encrypted</string>
+    <string name="button_OMTG_DATAST_001_SQLiteEncrypted">OMTG_DATAST_001_SQLite-Encrypted</string>
+    <string name="textview_OMTG_DATAST_001_SQLiteEncrypted">
+        <b>SQLite Testcase (Encrypted)</b>\n
+        A new encrypted SQLite database has been created. Try do decrypt it.
+    </string>
 
     <string name="title_activity_omtg__datast_002__logging">OMTG_DATAST_002_Logging</string>
     <string name="button_OMTG_DATAST_002_Logging">OMTG_DATAST_002_Logging</string>
@@ -51,60 +87,41 @@
         Look for something interesting in the generated log output.
     </string>
 
-    <string name="button_OMTG_DATAST_004_SharedPreferences">OMTG-DATAST-004-Shared Preferences</string>
-    <string name="title_activity_omtg__datast_004__sharedpreferences">OMTG_DATAST_004</string>
-    <string name="textview_OMTG_DATAST_004_SharedPreferences">
-        <b>Shared Preferences Testcase</b>\n
-        A new shared preference file has been created. Look for something interesting in it.
-    </string>
 
-
-    <string name="title_activity_omtg__datast_004__internal_storage">OMTG_DATAST_004_InternalStorage</string>
-    <string name="button_OMTG_DATAST_004_InternalStorage">OMTG_DATAST_004_InternalStorage</string>
-    <string name="textview_OMTG_DATAST_004_InternalStorage">
-        <b>Internal Storage Testcase</b>\n
-        A new internal file has been created. Look for something interesting in it.
-    </string>
-
-    <string name="title_activity_omtg__datast_004__external_storage">OMTG_DATAST_004_ExternalStorage</string>
-    <string name="button_OMTG_DATAST_004_ExternalStorage">OMTG_DATAST_004_ExternalStorage</string>
-    <string name="textview_OMTG_DATAST_004_ExternalStorage">
-        <b>External Storage Testcase</b>\n
-        A new external file has been created. Look for something interesting in it.
-    </string>
-
-
-    <string name="title_activity_omtg__datast_004__sqlite">OMTG_DATAST_004_SQLite</string>
-    <string name="button_OMTG_DATAST_004_SQLite">OMTG_DATAST_004_SQLite</string>
-    <string name="textview_OMTG_DATAST_004_SQLite">
-        <b>SQLite Testcase</b>\n
-        A new SQLite database has been created. Look for something interesting in it.
-    </string>
-
-    <string name="title_activity_omtg__datast_004__sqliteSecure">OMTG_DATAST_004_SQLite-Encrypted</string>
-    <string name="button_OMTG_DATAST_004_SQLiteEncrypted">OMTG_DATAST_004_SQLite-Encrypted</string>
-    <string name="textview_OMTG_DATAST_004_SQLiteEncrypted">
-        <b>SQLite Testcase (Encrypted)</b>\n
-        A new encrypted SQLite database has been created. Try do decrypt it.
-    </string>
-
-
-    <string name="title_activity_omtg__datast_007__memory">OMTG_DATAST_007_Memory</string>
-    <string name="button_OMTG_DATAST_007_Memory">OMTG_DATAST_007_Memory</string>
-    <string name="textview_OMTG_DATAST_007_Memory">
-        <b>Memory Testcase</b>\n
-        Make a dump of the memory. Identify the function that was called for this activity and get the decrypted string.
-    </string>
-    <string name="title_activity_omtg__datast_004__sqlite__secure">OMTG_DATAST_004_SQLite_Secure
-    </string>
-
-    <string name="title_activity_omtg__datast_005">OMTG_DATAST_005_3rd_Party</string>
-    <string name="button_OMTG_DATAST_005_3rd_Party">OMTG_DATAST_005_3rd_Party</string>
-    <string name="textview_OMTG_DATAST_005_3rd_Party">
+    <string name="title_activity_omtg__datast_005">OMTG_DATAST_004_3rd_Party</string>
+    <string name="button_OMTG_DATAST_004_3rd_Party">OMTG_DATAST_004_3rd_Party</string>
+    <string name="textview_OMTG_DATAST_004_3rd_Party">
         <b>3rd Party Libraries Testcase</b>\n
         This app has a 3rd Party Library called ACRA that will send details of a crash to their server. What can you see in Burp?
     </string>
-    <string name="button_OMTG_DATAST_005_3rd_Party_Crash">Crash the App</string>
+    <string name="button_OMTG_DATAST_004_3rd_Party_Crash">Crash the App</string>
+
+    <string name="title_activity_omtg__datast_005__keyboard__cache">OMTG_DATAST_005_Keyboard_Cache
+    </string>
+    <string name="button_OMTG_DATAST_005_Keyboard_Cache">OMTG_DATAST_005_Keyboard_Cache</string>
+    <string name="textview_OMTG_DATAST_005_Keyboard_Cache">Test Case to show deactivated Keyboard Cache in EditText.</string>
+    <string name="title_activity_omtg__datast_052__keyboard_cache">Enter sensitive information here</string>
+
+
+    <string name="title_activity_omtg__datast_006__clipboard">OMTG_DATAST_006_Clipboard</string>
+    <string name="button_OMTG_DATAST_006_Clipboard">OMTG_DATAST_006_Clipboard</string>
+    <string name="textview_OMTG_DATAST_006_Clipboard">Test Case to show deactivated Clipboard in EditText.</string>
+
+
+
+    <string name="title_activity_omtg__datast_007__memory">OMTG_DATAST_011_Memory</string>
+    <string name="button_OMTG_DATAST_011_Memory">OMTG_DATAST_011_Memory</string>
+    <string name="textview_OMTG_DATAST_011_Memory">
+        <b>Memory Testcase</b>\n
+        Make a dump of the memory. Identify the function that was called for this activity and get the decrypted string.
+    </string>
+
+
+
+
+
+
+
 
     <string name="button_OMTG_CODING_003_SQL_Injection">OMTG_CODING_003_SQL_Injection</string>
     <string name="title_activity_omtg__coding_003__sql__injection">OMTG_CODING_003_SQL_Injection</string>
@@ -129,6 +146,8 @@
     <string name="button_OMTG_ENV_005_Webview">OMTG_ENV_005_Webview_Remote</string>
     <string name="title_activity_omtg__env_005__web_view__local">OMTG_ENV_005_WebView_Local</string>
     <string name="button_OMTG_ENV_005_Webview_Local">OMTG_ENV_005_WebView_Local</string>
+
+
 
 
 </resources>
