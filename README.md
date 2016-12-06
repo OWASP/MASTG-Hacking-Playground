@@ -48,11 +48,11 @@ For the future the following enhancements are planned:
 * Review the test cases
 * A branch of the Android App will be created with Code Obfuscation, by using ProGuard to show developers how to enable code obfuscation and how it looks like once it's activated but it's also a playground to show penetration testers/security researches ways to reverse engineer the code.
 * Keep the documentation up-to-date and the link to the OMTG
-* Presentation of the OWASP Mobile Testing Guide (status update) and Hacking Playground at Null Security in September 2016 at the Singapore Meetup.
 
 ### Long Term 
-* Create an iOS App (including one with code obfuscation) that also includes the different test cases of the OWASP Mobile Testing Guide
-* Maintain the Android / iOS App in case the OWASP Mobile Testing Guide is getting updated, e.g. new best practices are available or new vulnerabilities are disclosed
+* Create an iOS App that also includes the different test cases of the OWASP Mobile Testing Guide.
+* Maintain the Android / iOS App in case the OWASP Mobile Testing Guide is getting updated, e.g. new best practices are available or new vulnerabilities are disclosed.
+* Presentation of the OWASP Mobile Testing Guide (status update) and Hacking Playground at Security Conferencees/Meetups.
     
 
 ## Author 
