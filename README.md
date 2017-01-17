@@ -2,16 +2,16 @@
 
 ## Project Description
 
-The OWASP Mobile Testing Guide (OMTG) will be similar to the OWASP Web Application Testing Guide, but will have specific test cases only applicable to mobile platforms. In order to give practical guidance to developers, security researches and penetration testers, a hacking playground was created that consists of different mobile App’s that contain different vulnerabilities that map to the OMTG test cases. Every test case described in the OMTG will therefore be implemented in an Android and iOS App. This has two advantages:
+The OWASP Mobile Security Testing Guide (MSTG) will be similar to the OWASP Web Application Testing Guide, but will have specific test cases only applicable to mobile platforms. In order to give practical guidance to developers, security researches and penetration testers, a hacking playground was created that consists of different mobile App’s that contain different vulnerabilities that map to the MSTG test cases. Every test case described in the MSTG will therefore be implemented in an Android and iOS App. This has two advantages:
 
 - A developer can identify vulnerable code in the provided App’s and can see the implications and risks if such patterns are used and can look for the best practices in the OMTG to mitigate the vulnerabilities.
-- Penetration testers / security researchers can identify bad practices, dangerous methods and classes they should look  rst when assessing a Mobile App and can gain more knowledge through the information provided in the OMTG.
+- Penetration testers / security researchers can identify bad practices, dangerous methods and classes they should look for when assessing a Mobile App and can gain more knowledge through the information provided in the OMTG.
 
 It is also encouraged to use the App(s) for education purpose during trainings and workshops. 
 
-Current Draft of the OWASP Mobile Testing Guide (OMTG) can be found here https://github.com/OWASP/owasp-mstg/.
+Current Draft of the OWASP Mobile Security Testing Guide (MSTG) can be found here https://github.com/OWASP/owasp-mstg/.
 
-If you want to contribute to the OMTG, please go to the OWASP Slack Channel. You can register here http://owasp.herokuapp.com/ and can find us in the channel #project-mobile_omtg.
+If you want to contribute to the MSTG, please go to the OWASP Slack Channel. You can register here http://owasp.herokuapp.com/ and can find us in the channel #project-mobile_omtg.
 
 ## Android App build (APK)
 
