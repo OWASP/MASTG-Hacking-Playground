@@ -157,4 +157,9 @@ public class MyActivity extends AppCompatActivity {
         Intent intent = new Intent(this, OMTG_DATAST_011_Memory.class);
         startActivity(intent);
     }
+
+    public void OMTG_NETW_001_Secure_Channel(View view) {
+        Intent intent = new Intent(this, OMTG_NETW_001_Secure_Channel.class);
+        startActivity(intent);
+    }
 }
