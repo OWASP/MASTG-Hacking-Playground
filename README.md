@@ -4,8 +4,8 @@
 
 The OWASP Mobile Security Testing Guide (MSTG) will be similar to the OWASP Web Application Testing Guide, but will have specific test cases only applicable to mobile platforms. In order to give practical guidance to developers, security researches and penetration testers, a hacking playground was created that consists of different mobile App’s that contain different vulnerabilities that map to the MSTG test cases. Every test case described in the MSTG will therefore be implemented in an Android and iOS App. This has two advantages:
 
-- A developer can identify vulnerable code in the provided App’s and can see the implications and risks if such patterns are used and can look for the best practices in the OMTG to mitigate the vulnerabilities.
-- Penetration testers / security researchers can identify bad practices, dangerous methods and classes they should look for when assessing a Mobile App and can gain more knowledge through the information provided in the OMTG.
+- A developer can identify vulnerable code in the provided App’s and can see the implications and risks if such patterns are used and can look for the best practices in the MSTG to mitigate the vulnerabilities.
+- Penetration testers / security researchers can identify bad practices, dangerous methods and classes they should look for when assessing a Mobile App and can gain more knowledge through the information provided in the MSTG.
 
 It is also encouraged to use the App(s) for education purpose during trainings and workshops. 
 
@@ -31,14 +31,14 @@ Check the [Wiki](https://github.com/OWASP/OMTG-Hacking-Playground/wiki) for a de
 
 Screenshot:
 
-![Test cases mapped to OMTG](https://raw.githubusercontent.com/OWASP/OMTG-Hacking-Playground/master/Android/OMTG-Android-App/screenshots/screenshot_0.png "Test cases mapped to OMTG" )
+![Test cases mapped to OMTG](https://raw.githubusercontent.com/OWASP/OMTG-Hacking-Playground/master/Android/OMTG-Android-App/screenshots/screenshot_0.png "Test cases mapped to MSTG" )
 
 
 
 ## Mobile Apps
 
 The following Mobile App is already created:
-* A fully working Android Application is implemented with around 20 test cases, and will be extended incrementally during the work on the OMTG.
+* A fully working Android Application is implemented with around 20 test cases, and will be extended incrementally during the work on the MSTG.
 For the future the following enhancements are planned:
 
 ## Project Roadmap 
@@ -47,7 +47,7 @@ For the future the following enhancements are planned:
 * Include more test cases into the Android App so all possible test cases are included
 * Review the test cases
 * A branch of the Android App will be created with Code Obfuscation, by using ProGuard to show developers how to enable code obfuscation and how it looks like once it's activated but it's also a playground to show penetration testers/security researches ways to reverse engineer the code.
-* Keep the documentation up-to-date and the link to the OMTG
+* Keep the documentation up-to-date and the link to the MSTG 
 
 ### Long Term 
 * Create an iOS App that also includes the different test cases of the OWASP Mobile Testing Guide.
@@ -73,5 +73,6 @@ This project is using the GNU General Public License v3.0.
 
 ## Acknowledgements
 
+Nikhil Soni (@nikhil)
 Ryan Teoh (@ryantzj)
 
