@@ -136,6 +136,12 @@
         android:text="@string/button_OMTG_CODING_003_Code_Injection"
         android:onClick="OMTG_CODING_004_Code_Injection" />
 
+    <Button
+        android:text="@string/button_OMTG_NETW_001_Secure_Channel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="OMTG_NETW_001_Secure_Channel" />
+
 
 </LinearLayout>
 </ScrollView>

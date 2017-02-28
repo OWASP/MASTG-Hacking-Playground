@@ -108,19 +108,12 @@
     <string name="textview_OMTG_DATAST_006_Clipboard">Test Case to show deactivated Clipboard in EditText.</string>
 
 
-
     <string name="title_activity_omtg__datast_007__memory">OMTG_DATAST_011_Memory</string>
     <string name="button_OMTG_DATAST_011_Memory">OMTG_DATAST_011_Memory</string>
     <string name="textview_OMTG_DATAST_011_Memory">
         <b>Memory Testcase</b>\n
         Make a dump of the memory. Identify the function that was called for this activity and get the decrypted string.
     </string>
-
-
-
-
-
-
 
 
     <string name="button_OMTG_CODING_003_SQL_Injection">OMTG_CODING_003_SQL_Injection</string>
@@ -147,7 +140,13 @@
     <string name="title_activity_omtg__env_005__web_view__local">OMTG_ENV_005_WebView_Local</string>
     <string name="button_OMTG_ENV_005_Webview_Local">OMTG_ENV_005_WebView_Local</string>
 
+    <string name="button_OMTG_NETW_001_Secure_Channel">OMTG_NETW_001_Secure_Channel</string>
+    <string name="title_OMTG_NETW_001_Secure_Channel">OMTG_NETW_001_Secure_Channel</string>
+    <string name="textview_OMTG_NETW_001_Secure_Channel">Inspect the traffic and try reading the packet data</string>
+    <string name="textview1_OMTG_NETW_001_Secure_Channel"><b>1. Insecure web page</b></string>
+    <string name="textview2_OMTG_NETW_001_Secure_Channel"><b>2. Secure web page</b></string>
 
-
+    <string name="url_example">http://example.com</string>
+    <string name="url_example_ssl">https://example.com</string>
 
 </resources>
