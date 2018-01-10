@@ -1,4 +1,4 @@
-# OMTG-Hacking-Playground
+# MSTG-Hacking-Playground
 
 ## Project Description
 
@@ -15,23 +15,23 @@ If you want to contribute to the MSTG, please go to the OWASP Slack Channel. You
 
 ## Android App build (APK)
 
-APK files of the Android App can be found in the following path: Android/OMTG-Android-App/app/build/outputs/apk/
-https://github.com/OWASP/OMTG-Hacking-Playground/tree/master/Android/OMTG-Android-App/app/build/outputs/apk
+APK files of the Android App can be found in the following path: Android/MSTG-Android-App/app/build/outputs/apk/
+https://github.com/OWASP/MSTG-Hacking-Playground/tree/master/Android/MSTG-Android-App/app/build/outputs/apk
 
 
 ## Installation 
 
 ### Android App
 
-The Android App is located in https://github.com/OWASP/OMTG-Hacking-Playground/tree/master/Android/OMTG-Android-App. After cloning the repo this directory needs to be opened in Android Studio. 
+The Android App is located in https://github.com/OWASP/MSTG-Hacking-Playground/tree/master/Android/MSTG-Android-App. After cloning the repo this directory needs to be opened in Android Studio. 
 
 In order to get the App running, besides the Android SDK, also the Android NDK needs to be availabe. If the NDK is not available, Android Studio will ask to download or specify a local path for the NDK when the project is opened. If parts of the SDK are missing, a prompt should show up to install the additional requriments. Afterwards the App can be build and can be run in an emulator or mobile device. 
 
-Check the [Wiki](https://github.com/OWASP/OMTG-Hacking-Playground/wiki) for a description of all available test cases.
+Check the [Wiki](https://github.com/OWASP/MSTG-Hacking-Playground/wiki) for a description of all available test cases.
 
 Screenshot:
 
-![Test cases mapped to OMTG](https://raw.githubusercontent.com/OWASP/OMTG-Hacking-Playground/master/Android/OMTG-Android-App/screenshots/screenshot_0.png "Test cases mapped to MSTG" )
+![Test cases mapped to MSTG](https://raw.githubusercontent.com/OWASP/MSTG-Hacking-Playground/master/Android/MSTG-Android-App/screenshots/screenshot_0.png "Test cases mapped to MSTG" )
 
 
 
