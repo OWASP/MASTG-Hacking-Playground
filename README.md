@@ -16,7 +16,7 @@ If you want to contribute to the MSTG, please go to the OWASP Slack Channel. You
 ## Android App build (APK)
 
 APK files of the Android App can be found in the following path: Android/MSTG-Android-App/app/build/outputs/apk/
-https://github.com/OWASP/MSTG-Hacking-Playground/tree/master/Android/MSTG-Android-App/app/build/outputs/apk
+https://github.com/OWASP/MSTG-Hacking-Playground/tree/master/Android/OMTG-Android-App/app/build/outputs/apk
 
 
 ## Installation 
