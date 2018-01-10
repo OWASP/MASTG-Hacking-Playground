@@ -23,7 +23,7 @@ https://github.com/OWASP/MSTG-Hacking-Playground/tree/master/Android/MSTG-Androi
 
 ### Android App
 
-The Android App is located in https://github.com/OWASP/MSTG-Hacking-Playground/tree/master/Android/MSTG-Android-App. After cloning the repo this directory needs to be opened in Android Studio. 
+The Android App is located in https://github.com/OWASP/MSTG-Hacking-Playground/tree/master/Android/OMTG-Android-App. After cloning the repo this directory needs to be opened in Android Studio. 
 
 In order to get the App running, besides the Android SDK, also the Android NDK needs to be availabe. If the NDK is not available, Android Studio will ask to download or specify a local path for the NDK when the project is opened. If parts of the SDK are missing, a prompt should show up to install the additional requriments. Afterwards the App can be build and can be run in an emulator or mobile device. 
 
@@ -31,7 +31,7 @@ Check the [Wiki](https://github.com/OWASP/MSTG-Hacking-Playground/wiki) for a de
 
 Screenshot:
 
-![Test cases mapped to MSTG](https://raw.githubusercontent.com/OWASP/MSTG-Hacking-Playground/master/Android/MSTG-Android-App/screenshots/screenshot_0.png "Test cases mapped to MSTG" )
+![Test cases mapped to MSTG](https://raw.githubusercontent.com/OWASP/MSTG-Hacking-Playground/master/Android/OMTG-Android-App/screenshots/screenshot_0.png "Test cases mapped to MSTG" )
 
 
 
