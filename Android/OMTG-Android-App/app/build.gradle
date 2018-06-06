@@ -24,14 +24,14 @@ apply plugin: 'com.android.model.application'
 
 model {
     android {
-        compileSdkVersion = 23
-        buildToolsVersion = "23.0.2"
+        compileSdkVersion = 26
+        buildToolsVersion = "26.0.2"
 
 
         defaultConfig {
             applicationId "sg.vp.owasp_mobile.omtg_android"
             minSdkVersion.apiLevel = 21
-            targetSdkVersion.apiLevel = 23
+            targetSdkVersion.apiLevel = 26
             versionCode = 1
             versionName = "1.0"
         }
@@ -42,6 +42,29 @@ model {
                 proguardFiles.add(file('proguard-android.txt'))
             }
         }
+
+//        abi {
+//            enable true
+//            reset()
+//            include 'x86', 'x86_64', 'armeabi-v7a', 'arm64-v8a' //select ABIs to build APKs for
+//            universalApk true //generate an additional APK that contains all the ABIs
+//        }
+
+
+//        splits {
+//
+//            density {
+//                enable true
+//                reset()
+//                include "mdpi", "hdpi"
+//            }
+//            abi {
+//                enable true
+//                reset()
+//                include "x86", "x86_64"
+//            }
+//        }
+
         ndk {
             moduleName = "native"
             toolchain = 'clang'
@@ -53,9 +76,15 @@ model {
             create("arm") {
                 ndk.abiFilters.add("armeabi")
             }
+            create("x86") {
+                ndk.abiFilters.add("x86")
+            }
             // To include all cpu architectures, leaves abiFilters empty
             //create("arm")
         }
+
+
+
     }
 }
 

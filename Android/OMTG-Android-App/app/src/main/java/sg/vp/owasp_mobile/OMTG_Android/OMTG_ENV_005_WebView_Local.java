@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.webkit.JavascriptInterface;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.widget.Button;
@@ -36,7 +37,22 @@ public class OMTG_ENV_005_WebView_Local extends AppCompatActivity {
 
         myWebView.setWebChromeClient(new WebChromeClient());
 
+        myWebView.addJavascriptInterface(new JavaScriptInterface(), "jsinterface");
+//        OMTG_ENV_005_JS_Interface jsInterface = new OMTG_ENV_005_JS_Interface(this);
+//        myWebView.addJavascriptInterface(jsInterface, "Android");
+
         myWebView.loadUrl("file:///android_asset/local.htm");
+
+//        setContentView(myWebView);
+    }
+
+    final class JavaScriptInterface {
+        JavaScriptInterface () { }
+
+        @JavascriptInterface
+        public String getSomeString() {
+            return "string";
+        }
     }
 
 }

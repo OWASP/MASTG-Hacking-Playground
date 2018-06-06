@@ -16,7 +16,11 @@ public class OMTG_ENV_005_JS_Interface {
             mContext = c;
         }
 
-        @JavascriptInterface
+    public OMTG_ENV_005_JS_Interface() {
+
+    }
+
+    @JavascriptInterface
         public String returnString () {
             return "Secret String";
         }

@@ -149,4 +149,13 @@
     <string name="url_example">http://example.com</string>
     <string name="url_example_ssl">https://example.com</string>
 
+    <string name="title_activity_omtg__netw_004__ssl__pinning">OMTG_NETW_004_SSL_Pinning</string>
+    <string name="textview_OMTG_NETW_004_SSL_Pinning">Check with an interception Proxy if you can intercept the communication.</string>
+    <string name="button_OMTG_NETW_004_SSL_Pinning">OMTG_NETW_004_SSL_Pinning</string>
+    <string name="title_activity_omtg__netw_004__ssl__pinning__certificate">
+        OMTG_NETW_004_SSL_Pinning_Certificate
+    </string>
+    <string name="textview_OMTG_NETW_004_SSL_Pinning_Whole_Cert">This HTTPS request is pinned against the whole certificate</string>
+    <string name="button_OMTG_NETW_004_SSL_Pinning_Whole_Cert">OMTG_NETW_004_SSL_Pinning_Whole_Cert</string>
+
 </resources>

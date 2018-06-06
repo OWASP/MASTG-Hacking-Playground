@@ -31,6 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/loggingUsername"
+        android:inputType="textPassword"
         android:hint="@string/title_activity_omtg__datast_002__logging_password"/>
 
     <Button

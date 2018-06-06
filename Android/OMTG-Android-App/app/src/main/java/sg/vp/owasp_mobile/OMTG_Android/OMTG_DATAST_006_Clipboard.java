@@ -60,10 +60,10 @@ public class OMTG_DATAST_006_Clipboard extends AppCompatActivity {
 
     }
 
-    @Override
-    protected void onCreateContextMenu(ContextMenu menu)
-    {
-        //super.onCreateContextMenu(menu); //Be sure to comment this line or remove it completely.
-        // menu.clear();
-    }
+//    @Override
+//    protected void onCreateContextMenu(ContextMenu menu)
+//    {
+//        //super.onCreateContextMenu(menu); //Be sure to comment this line or remove it completely.
+//        // menu.clear();
+//    }
 }

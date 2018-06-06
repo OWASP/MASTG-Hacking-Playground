@@ -142,6 +142,19 @@
         android:layout_height="wrap_content"
         android:onClick="OMTG_NETW_001_Secure_Channel" />
 
+    <Button
+        android:text="@string/button_OMTG_NETW_004_SSL_Pinning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="OMTG_NETW_004_SSL_Pining" />
+
+    <Button
+        android:text="@string/button_OMTG_NETW_004_SSL_Pinning_Whole_Cert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="OMTG_NETW_004_SSL_Pining_Certificate" />
+
+
 
 </LinearLayout>
 </ScrollView>
