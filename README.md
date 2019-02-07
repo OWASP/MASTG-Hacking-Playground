@@ -64,7 +64,7 @@ No iOS Apps yet. Feel free to start one :-)
 
 ## Mobile Security Crackmes
 
-Did you enjoy working with the Playground ? There is more! Go to [the MSTG Crackmes](https://github.com/OWASP/MSTG-Hacking-Playground "MSTG-Crackmes") and find out!
+Did you enjoy working with the Playground? There is more! Go to [the MSTG Crackmes](https://github.com/OWASP/owasp-mstg/tree/master/Crackmes "MSTG-Crackmes") and find out!
 Having troubles with getting through the playground challenges, check the Write-ups folder right here!
 
 ## Issues with the Crackmes
