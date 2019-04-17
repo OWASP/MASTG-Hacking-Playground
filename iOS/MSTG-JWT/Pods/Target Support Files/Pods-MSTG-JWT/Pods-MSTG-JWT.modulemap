@@ -1,0 +1,6 @@
+framework module Pods_MSTG_JWT {
+  umbrella header "Pods-MSTG-JWT-umbrella.h"
+
+  export *
+  module * { export * }
+}
