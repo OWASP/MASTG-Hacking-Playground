@@ -54,7 +54,7 @@ $ adb install Playground/Android/mstg-kotlin-app/app/build/outputs/apk/debug/app
 Open the project directories mstg-java-app or mstg-kotlin-app in Android Studio. The apps can be compiled with Android Studio 3.1.4 (tested). 
 When asked for updating the Gradle Plugin in Android Studio, when opening the projects please don't update Gradle and stay with version 3.1.4.
 
-In order to get the Apps running, besides the Android SDK, also the Android NDK needs to be availabe. If the NDK is not available, Android Studio will ask to download or specify a local path for the NDK when the project is opened. If parts of the SDK are missing, a prompt should show up to install the additional requriments. Afterwards the App can be build and can be run in an emulator or mobile device. 
+In order to get the Apps running, besides the Android SDK, also the Android NDK needs to be available. If the NDK is not available, Android Studio will ask to download or specify a local path for the NDK when the project is opened. If parts of the SDK are missing, a prompt should show up to install the additional requriments. Afterwards the App can be build and can be run in an emulator or mobile device. 
 
 Check the [Wiki](https://github.com/OWASP/MSTG-Hacking-Playground/wiki) for a description of all available test cases.
 
