@@ -18,7 +18,7 @@ You are invited to extend the existing apps or even create your own one. Please 
 
 ## Android
 
-### [MSTG Android Java App](https://github.com/OWASP/owasp-mstg/tree/master/Playground/Android/mstg-java-app "Android Java App") 
+### [MSTG Android Java App](https://github.com/OWASP/MSTG-Hacking-Playground/tree/master/Android/MSTG-Android-Java-App "Android Java App") 
 
 - Author: [Sven Schleier](https://github.com/sushi2k "Sven Schleier") 
 - Maintained by [Sven Schleier](https://github.com/sushi2k "Sven Schleier")
@@ -32,7 +32,7 @@ $ adb install Playground/Android/mstg-java-app/app/build/outputs/apk/debug/app-d
 ```
 
 
-### [MSTG Android Kotlin App](https://github.com/OWASP/owasp-mstg/tree/master/Playground/Android/mstg-kotlin-app "Android Kotlin App") 
+### [MSTG Android Kotlin App](https://github.com/OWASP/MSTG-Hacking-Playground/tree/master/Android/MSTG-Android-Kotlin-App "Android Kotlin App") 
 
 - Author: [Wen Bin Kong](https://github.com/kongwenbin "Wen Bin Kong") 
 - Maintained by [Sven Schleier](https://github.com/sushi2k "Sven Schleier")
