@@ -1,5 +1,7 @@
 # Rails REST API
 
+The REST API was build after the great tutorial from Austin Kabiru. The link can be found [here](https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-one).
+
 ## Docker
 
 ### Container 
