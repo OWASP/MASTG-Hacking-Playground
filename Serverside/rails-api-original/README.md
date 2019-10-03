@@ -2,20 +2,33 @@
 
 The REST API was build after the great tutorial from Austin Kabiru. The link can be found [here](https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-one).
 
+## Pre-requisites
+
+- [Install docker on Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-engine---community)
+
+- The following packages need to be installed on an Ubuntu-based system to package the docker:
+
+```bash
+$ sudo apt-get install ruby
+$ sudo apt-get install ruby-railties
+$ sudo apt-get install ruby-bundler
+$ sudo apt-get install build-essential patch ruby-dev liblzma-dev
+$ sudo apt-get install libxslt-dev libxml2-dev zlib1g-dev --yes
+$ sudo apt-get install libsqlite3-dev
+```
+
 ## Docker
 
-### Container 
-
-<TBD> Not availalbe yet 
-
-### Configuration to create your own container 
+### Configuration to create your own container
 
 Check the prerequisites, https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-one#toc-prerequisites
 You should ruby and rails installed with at least the following versions:
 
 ```
-$ ruby -v # ruby 2.3.0p0 (2015-12-25 revision 53290) [x86_64-darwin16]
-$ rails -v # Rails 5.0.1
+$ ruby -v
+ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-linux-gnu]
+$ rails -v
+Rails 5.1.4
 ```
 
 Go to this directory and execute the following commands:
