@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/MSTG-Android-Kotlin-App.iml" filepath="$PROJECT_DIR$/MSTG-Android-Kotlin-App.iml" group="MSTG-Android-Kotlin-App" />
+      <module fileurl="file://$PROJECT_DIR$/app/MSTG-Android-Kotlin-App-app.iml" filepath="$PROJECT_DIR$/app/MSTG-Android-Kotlin-App-app.iml" group="MSTG-Android-Kotlin-App/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/mstgkotlin.iml" filepath="$PROJECT_DIR$/mstgkotlin.iml" />
     </modules>

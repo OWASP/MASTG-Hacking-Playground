@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/MSTG-Android-Java-App.iml" filepath="$PROJECT_DIR$/MSTG-Android-Java-App.iml" group="MSTG-Android-Java-App" />
+      <module fileurl="file://$PROJECT_DIR$/app/MSTG-Android-Java-App-app.iml" filepath="$PROJECT_DIR$/app/MSTG-Android-Java-App-app.iml" group="MSTG-Android-Java-App/app" />
       <module fileurl="file://$PROJECT_DIR$/OMTG-Android-App.iml" filepath="$PROJECT_DIR$/OMTG-Android-App.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
