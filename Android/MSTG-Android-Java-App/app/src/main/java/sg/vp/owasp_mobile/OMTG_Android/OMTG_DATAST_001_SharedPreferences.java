@@ -18,7 +18,7 @@ public class OMTG_DATAST_001_SharedPreferences extends AppCompatActivity {
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        SharedPreferences sharedPref = getSharedPreferences("key", MODE_WORLD_READABLE);
+        SharedPreferences sharedPref = getSharedPreferences("key", MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPref.edit();
         editor.putString("username", "administrator");
         editor.putString("password", "supersecret");
