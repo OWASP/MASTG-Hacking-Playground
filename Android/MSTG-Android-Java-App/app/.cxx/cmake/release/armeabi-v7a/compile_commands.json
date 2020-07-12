@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/Users/sven/PentestTools/OWASP/MSTG-Hacking-Playground/Android/MSTG-Android-Java-App/app/.cxx/cmake/release/armeabi-v7a",
-  "command": "/Users/sven/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/sven/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/sven/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o -c /Users/sven/PentestTools/OWASP/MSTG-Hacking-Playground/Android/MSTG-Android-Java-App/app/src/main/cpp/native-lib.cpp",
-  "file": "/Users/sven/PentestTools/OWASP/MSTG-Hacking-Playground/Android/MSTG-Android-Java-App/app/src/main/cpp/native-lib.cpp"
-}
-]
