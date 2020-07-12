@@ -32,7 +32,7 @@ This app is compatible with Android 4.4 and up. Once you checkout the repo you c
 $ adb install Android/MSTG-Android-Java-App/app/build/outputs/apk/debug/app-debug.apk  
 ```
 
-The APK is also available in the [release page](https://github.com/OWASP/MSTG-Hacking-Playground/releases/tag/1.1).
+The APK is also available in the [release page](https://github.com/OWASP/MSTG-Hacking-Playground/releases/tag/1.0).
 
 Screenshot of app:
 
