@@ -2,8 +2,8 @@ package sg.vp.owasp_mobile.OMTG_Android;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -135,11 +135,11 @@ public class MyActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-
-    public void OMTG_DATAST_004_3rd_Party(View view) {
-        Intent intent = new Intent(this, OMTG_DATAST_004_3rd_Party.class);
-        startActivity(intent);
-    }
+//
+//    public void OMTG_DATAST_004_3rd_Party(View view) {
+//        Intent intent = new Intent(this, OMTG_DATAST_004_3rd_Party.class);
+//        startActivity(intent);
+//    }
 
 
     public void OMTG_DATAST_005_Keyboard_Cache(View view) {

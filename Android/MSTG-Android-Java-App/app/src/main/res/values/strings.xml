@@ -88,13 +88,13 @@
     </string>
 
 
-    <string name="title_activity_omtg__datast_005">OMTG_DATAST_004_3rd_Party</string>
-    <string name="button_OMTG_DATAST_004_3rd_Party">OMTG_DATAST_004_3rd_Party</string>
-    <string name="textview_OMTG_DATAST_004_3rd_Party">
-        <b>3rd Party Libraries Testcase</b>\n
-        This app has a 3rd Party Library called ACRA that will send details of a crash to their server. What can you see in Burp?
-    </string>
-    <string name="button_OMTG_DATAST_004_3rd_Party_Crash">Crash the App</string>
+<!--    <string name="title_activity_omtg__datast_005">OMTG_DATAST_004_3rd_Party</string>-->
+<!--    <string name="button_OMTG_DATAST_004_3rd_Party">OMTG_DATAST_004_3rd_Party</string>-->
+<!--    <string name="textview_OMTG_DATAST_004_3rd_Party">-->
+<!--        <b>3rd Party Libraries Testcase</b>\n-->
+<!--        This app has a 3rd Party Library called ACRA that will send details of a crash to their server. What can you see in Burp?-->
+<!--    </string>-->
+<!--    <string name="button_OMTG_DATAST_004_3rd_Party_Crash">Crash the App</string>-->
 
     <string name="title_activity_omtg__datast_005__keyboard__cache">OMTG_DATAST_005_Keyboard_Cache
     </string>
