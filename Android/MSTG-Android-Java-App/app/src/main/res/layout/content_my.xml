@@ -72,13 +72,6 @@
         android:onClick="OMTG_DATAST_002_Logging" />
 
 
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/button_OMTG_DATAST_004_3rd_Party"
-        android:onClick="OMTG_DATAST_004_3rd_Party" />
-
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

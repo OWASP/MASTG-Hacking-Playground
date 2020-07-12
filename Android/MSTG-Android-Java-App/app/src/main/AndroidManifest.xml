@@ -127,15 +127,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="sg.vp.owasp_mobile.OMTG_Android.MyActivity" />
         </activity>
-        <activity
-            android:name=".OMTG_DATAST_004_3rd_Party"
-            android:label="@string/title_activity_omtg__datast_005"
-            android:parentActivityName=".MyActivity"
-            android:theme="@style/AppTheme.NoActionBar" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="sg.vp.owasp_mobile.OMTG_Android.MyActivity" />
-        </activity>
+<!--        <activity-->
+<!--            android:name=".OMTG_DATAST_004_3rd_Party"-->
+<!--            android:label="@string/title_activity_omtg__datast_005"-->
+<!--            android:parentActivityName=".MyActivity"-->
+<!--            android:theme="@style/AppTheme.NoActionBar" >-->
+<!--            <meta-data-->
+<!--                android:name="android.support.PARENT_ACTIVITY"-->
+<!--                android:value="sg.vp.owasp_mobile.OMTG_Android.MyActivity" />-->
+<!--        </activity>-->
 
         <meta-data
             android:name="io.fabric.ApiKey"

@@ -24,8 +24,8 @@ apply plugin: 'com.android.application'
 
 
     android {
-        compileSdkVersion 26
-        buildToolsVersion '27.0.3'
+        compileSdkVersion 28
+        buildToolsVersion '28.0.3'
 
 
         defaultConfig {
@@ -46,6 +46,14 @@ apply plugin: 'com.android.application'
             release {
                 minifyEnabled = false
                 proguardFiles.add(file('proguard-android.txt'))
+            }
+        }
+
+        externalNativeBuild {
+            cmake {
+                version "3.6.0"
+                path file('CMakeLists.txt')
+//                path "src/main/jni/CMakeLists.txt"
             }
         }
 
@@ -96,12 +104,18 @@ apply plugin: 'com.android.application'
 
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:26.1.0'
-    compile 'com.android.support:design:26.1.0'
-    compile files('libs/sqlcipher.jar')
-    compile files('libs/guava-r09.jar')
-    compile files('libs/commons-codec.jar')
-    compile 'ch.acra:acra:4.9.0'
+//    compile fileTree(dir: 'libs', include: ['*.jar'])
+//    testCompile 'junit:junit:4.12'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'com.android.support:support-compat:28.0.0'
+    implementation "com.android.support:design:28.0.0"
+//    compile 'com.android.support:appcompat-v7:26.1.0'
+//    compile 'com.android.support:design:28.1.0'
+//    compile files('libs/sqlcipher.jar')
+//    compile files('libs/guava-r09.jar')
+//    compile files('libs/commons-codec.jar')
+    implementation "net.zetetic:android-database-sqlcipher:4.4.0"
+    implementation "androidx.sqlite:sqlite:2.0.1"
+//    compile 'ch.acra:acra:4.9.0'
 }

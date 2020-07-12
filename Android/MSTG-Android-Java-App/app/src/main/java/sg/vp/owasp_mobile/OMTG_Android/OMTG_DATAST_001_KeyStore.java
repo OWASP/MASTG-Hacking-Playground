@@ -2,8 +2,8 @@ package sg.vp.owasp_mobile.OMTG_Android;
 
 import android.os.Bundle;
 import android.security.KeyPairGeneratorSpec;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.util.Base64;
 import android.util.Log;
 import android.view.View;
