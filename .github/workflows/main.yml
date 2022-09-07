@@ -62,6 +62,6 @@ jobs:
           draft: true
           generate_release_notes: true
           files: |
-            MASTG-Hacking-Playground/*.apk
+            MASTG-Hacking-Playground/*/*.apk
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
