@@ -41,3 +41,18 @@ jobs:
         with:
           name: debug apk
           path: ./Android/MSTG-Android-Kotlin-App/app/build/outputs/apk/debug/app-debug.apk
+      
+  release:
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/')
+    steps:
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          prerelease: false
+          draft: true
+          generate_release_notes: true
+          files: |
+            *.apk
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
