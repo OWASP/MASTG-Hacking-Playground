@@ -40,7 +40,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: app-release.apk
-          path: ./Android/MSTG-Android-Kotlin-App/app/build/outputs/apk/release/app-release.apk
+          path: ./Android/MSTG-Android-Kotlin-App/app/build/outputs/apk/release/app-release-unsigned.apk
       
   release:
     runs-on: ubuntu-latest
