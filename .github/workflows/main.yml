@@ -32,7 +32,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Build the app
-        run: ./gradlew assembleDebug
+        run: ./Android/MSTG-Android-Kotlin-App/gradlew assembleDebug
 
       - name: Upload apk
         uses: actions/upload-artifact@v2
