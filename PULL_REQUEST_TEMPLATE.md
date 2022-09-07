@@ -1,4 +1,4 @@
-Thank you for submitting a Pull Request to the Hacking Playground. Please make sure that:
+Thank you for submitting a Pull Request to the OWASP MASTG Hacking Playground. Please make sure that:
 
 - [ ] Your contribution has proper formatted comments and/or code.
 - [ ] You verified/tested the effectiveness of your contribution (e.g.: is the code really an effective remediation? Please verify it works!).
