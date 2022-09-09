@@ -13,9 +13,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./Android/MSTG-Android-Kotlin-App
+    #defaults:
+    #  run:
+    #    working-directory: ./Android/MSTG-Android-Kotlin-App
 
     steps:
       - name: Checkout the code
@@ -34,7 +34,7 @@ jobs:
           java-version: 1.8
 
       - name: Build the app
-        run: ./gradlew assembleRelease
+        run: ./Android/MSTG-Android-Kotlin-App/gradlew assembleRelease
 
       - name: Upload apk
         uses: actions/upload-artifact@v2
