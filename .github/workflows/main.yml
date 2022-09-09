@@ -1,4 +1,4 @@
-name: Check PR
+name: Build & Release
 
 on:
   # Triggers the workflow on every pull request to master branch
