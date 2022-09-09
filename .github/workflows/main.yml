@@ -40,7 +40,7 @@ jobs:
         run: ls -la 
         
       - name: Rename build 
-        run: mv app-release-unsigned.apk MASTG-Android.apk
+        run: mv ./app/build/outputs/apk/release/app-release-unsigned.apk ./app/build/outputs/apk/release/MASTG-Android.apk
 
       - name: Upload apk
         uses: actions/upload-artifact@v2
