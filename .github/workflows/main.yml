@@ -36,6 +36,9 @@ jobs:
       - name: Build the app
         run: ./gradlew assembleRelease
         
+      - name: List Downloaded document (sampling of download-artifact)
+        run: ls -la 
+        
       - name: Rename build 
         run: mv app-release-unsigned.apk MASTG-Android.apk
 
