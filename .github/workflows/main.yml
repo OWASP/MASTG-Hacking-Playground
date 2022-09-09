@@ -35,12 +35,15 @@ jobs:
 
       - name: Build the app
         run: ./gradlew assembleRelease
+        
+      - name: Rename build 
+        run: mv app-release-unsigned.apk MASTG-Android.apk
 
       - name: Upload apk
         uses: actions/upload-artifact@v2
         with:
           name: app-release
-          path: ./Android/MSTG-Android-Kotlin-App/app/build/outputs/apk/release/app-release-unsigned.apk
+          path: ./Android/MSTG-Android-Kotlin-App/app/build/outputs/apk/release/MASTG-Android.apk
       
   release:
     runs-on: ubuntu-latest
