@@ -39,9 +39,6 @@ jobs:
       - name: List Downloaded artifacts (sampling of download-artifact)
         run: ls -l 
         
-      - name: Rename build 
-        run: mv ./app/build/outputs/apk/release/app-release-unsigned.apk ./app/build/outputs/apk/release/MASTG-Android.apk
-
       - uses: r0adkll/sign-android-release@v1
         name: Sign app APK
         # ID used to access action output
@@ -52,6 +49,9 @@ jobs:
           alias: ${{ secrets.SIGNING_KEY_ALIAS }}
           keyStorePassword: ${{ secrets.SIGNING_STORE_PASSWORD }}
           keyPassword: ${{ secrets.SIGNING_KEY_PASSWORD }}
+
+      - name: Rename build 
+        run: mv ./app/build/outputs/apk/release/app-release.apk ./app/build/outputs/apk/release/MASTG-Android.apk
 
       - name: Upload APK
         uses: actions/upload-artifact@v2
