@@ -42,6 +42,17 @@ jobs:
       - name: Rename build 
         run: mv ./app/build/outputs/apk/release/app-release-unsigned.apk ./app/build/outputs/apk/release/MASTG-Android.apk
 
+      - uses: r0adkll/sign-android-release@v1
+        name: Sign app APK
+        # ID used to access action output
+        id: sign_app
+        with:
+          releaseDirectory: ./app/build/outputs/apk/release
+          signingKeyBase64: ${{ secrets.KEYSTORE }}
+          alias: ${{ secrets.SIGNING_KEY_ALIAS }}
+          keyStorePassword: ${{ secrets.SIGNING_STORE_PASSWORD }}
+          keyPassword: ${{ secrets.SIGNING_KEY_PASSWORD }}
+
       - name: Upload apk
         uses: actions/upload-artifact@v2
         with:
