@@ -51,7 +51,7 @@ jobs:
           keyPassword: ${{ secrets.SIGNING_KEY_PASSWORD }}
 
       - name: Rename build 
-        run: mv ./app/build/outputs/apk/release/app-release.apk ./app/build/outputs/apk/release/MASTG-Android.apk
+        run: mv ./app/build/outputs/apk/release/app-release-unsigned-signed.apk ./app/build/outputs/apk/release/MASTG-Android.apk
 
       - name: Upload APK
         uses: actions/upload-artifact@v2
