@@ -47,13 +47,13 @@ jobs:
         # ID used to access action output
         id: sign_app
         with:
-          releaseDirectory: ./app/build/outputs/apk/release
+          releaseDirectory: ./Android/MSTG-Android-Kotlin-App/app/build/outputs/apk/release
           signingKeyBase64: ${{ secrets.KEYSTORE }}
           alias: ${{ secrets.SIGNING_KEY_ALIAS }}
           keyStorePassword: ${{ secrets.SIGNING_STORE_PASSWORD }}
           keyPassword: ${{ secrets.SIGNING_KEY_PASSWORD }}
 
-      - name: Upload apk
+      - name: Upload APK
         uses: actions/upload-artifact@v2
         with:
           name: app-release
