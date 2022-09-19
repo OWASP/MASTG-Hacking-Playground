@@ -97,6 +97,6 @@ jobs:
           draft: true
           generate_release_notes: true
           files: |
-            ./app/build/outputs/apk/release/MASTG-Android.apk
+            ./Android/MSTG-Android-Kotlin-App/app/build/outputs/apk/release/MASTG-Android.apk
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
