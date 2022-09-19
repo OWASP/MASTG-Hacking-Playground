@@ -46,14 +46,14 @@ jobs:
       - name: List Downloaded artifacts (sampling of download-artifact)
         run: ls -l 
         
-      - uses: r0adkll/sign-android-release@v1
+      - uses: ilharp/sign-android-release@v1  
         name: Sign app APK
         # ID used to access action output
         id: sign_app
         with:
-          releaseDirectory: ./Android/MSTG-Android-Kotlin-App/app/build/outputs/apk/release
-          signingKeyBase64: ${{ secrets.KEYSTORE }}
-          alias: ${{ secrets.SIGNING_KEY_ALIAS }}
+          releaseDir: ./Android/MSTG-Android-Kotlin-App/app/build/outputs/apk/release
+          signingKey: ${{ secrets.KEYSTORE }}
+          keyAlias: ${{ secrets.SIGNING_KEY_ALIAS }}
           keyStorePassword: ${{ secrets.SIGNING_STORE_PASSWORD }}
           keyPassword: ${{ secrets.SIGNING_KEY_PASSWORD }}
 
