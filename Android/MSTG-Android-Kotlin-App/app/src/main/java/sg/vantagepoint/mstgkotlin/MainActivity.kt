@@ -1,7 +1,7 @@
 package sg.vantagepoint.mstgkotlin
 
 import android.content.SharedPreferences
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
 import android.util.Log
@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         btnsubmit.setOnClickListener {
-            FuelManager.instance.basePath = "http://52.221.247.56"
+            FuelManager.instance.basePath = "http://10.0.0.24"
             val loginurl = "/auth/login"
             val loginbody = "{ \"email\" : \"${loginemail.text}\", \"password\" : \"${loginpassword.text}\" }"
 
