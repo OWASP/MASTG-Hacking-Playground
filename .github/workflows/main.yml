@@ -81,7 +81,7 @@ jobs:
         # ID used to access action output
         id: sign_app
         with:
-          releaseDir: ./app/build/outputs/apk/release
+          releaseDir: ./Android/MSTG-Android-Kotlin-App/app/build/outputs/apk/release
           signingKey: ${{ secrets.KEYSTORE }}
           keyAlias: ${{ secrets.SIGNING_KEY_ALIAS }}
           keyStorePassword: ${{ secrets.SIGNING_STORE_PASSWORD }}
