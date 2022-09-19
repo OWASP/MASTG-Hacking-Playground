@@ -40,7 +40,10 @@ jobs:
           distribution: 'temurin'
           java-version: '11'
 
-      - name: Build the app
+      - name: Build the debug app
+        run: ./gradlew assembleDebug
+
+      - name: Build the release app
         run: ./gradlew assembleRelease
         
       - name: List Downloaded artifacts (sampling of download-artifact)
@@ -48,6 +51,12 @@ jobs:
         
       - name: Rename build 
         run: mv ./app/build/outputs/apk/release/app-release-unsigned.apk ./app/build/outputs/apk/release/MASTG-Android.apk
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v2
+        with:
+          name: app-debug
+          path: ./Android/MSTG-Android-Kotlin-App/app/build/outputs/apk/debug/app-debug.apk
 
       - name: Upload APK
         uses: actions/upload-artifact@v2
