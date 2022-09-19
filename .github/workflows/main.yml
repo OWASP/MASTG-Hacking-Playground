@@ -82,6 +82,6 @@ jobs:
           draft: true
           generate_release_notes: true
           files: |
-            ./app-release/MASTG-Android-signed.apk
+            app-release/*.apk
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
