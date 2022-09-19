@@ -2,7 +2,7 @@ name: Build & Release
 
 on:
   # Triggers the workflow on every pull request to master branch
-  pull_request_target:
+  pull_request:
     branches:
       - master
   push:
@@ -46,17 +46,6 @@ jobs:
       - name: List Downloaded artifacts (sampling of download-artifact)
         run: ls -l 
         
-      - uses: ilharp/sign-android-release@v1  
-        name: Sign app APK
-        # ID used to access action output
-        id: sign_app
-        with:
-          releaseDir: ./Android/MSTG-Android-Kotlin-App/app/build/outputs/apk/release
-          signingKey: ${{ secrets.KEYSTORE }}
-          keyAlias: ${{ secrets.SIGNING_KEY_ALIAS }}
-          keyStorePassword: ${{ secrets.SIGNING_STORE_PASSWORD }}
-          keyPassword: ${{ secrets.SIGNING_KEY_PASSWORD }}
-
       - name: Rename build 
         run: mv ./app/build/outputs/apk/release/app-release-unsigned-signed.apk ./app/build/outputs/apk/release/MASTG-Android.apk
 
@@ -74,6 +63,17 @@ jobs:
       - uses: actions/download-artifact@v2
       - name: List Downloaded artifacts (sampling of download-artifact)
         run: ls -l 
+
+      - uses: ilharp/sign-android-release@v1  
+        name: Sign app APK
+        # ID used to access action output
+        id: sign_app
+        with:
+          releaseDir: ./app-release
+          signingKey: ${{ secrets.KEYSTORE }}
+          keyAlias: ${{ secrets.SIGNING_KEY_ALIAS }}
+          keyStorePassword: ${{ secrets.SIGNING_STORE_PASSWORD }}
+          keyPassword: ${{ secrets.SIGNING_KEY_PASSWORD }}
 
       - name: Release
         uses: softprops/action-gh-release@v1
