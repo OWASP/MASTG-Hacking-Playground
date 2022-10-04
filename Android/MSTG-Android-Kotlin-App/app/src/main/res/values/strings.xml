@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MSTG Kotlin App</string>
+    <string name="app_name">MASTG Kotlin App</string>
 
     <string name="login_text">Login</string>
     <string name="login_username">User Name</string>

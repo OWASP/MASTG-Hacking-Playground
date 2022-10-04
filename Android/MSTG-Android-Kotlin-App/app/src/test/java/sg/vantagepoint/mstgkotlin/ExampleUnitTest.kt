@@ -1,4 +1,4 @@
-package sg.vantagepoint.mstgkotlin
+package owasp.mastgkotlin
 
 import org.junit.Test
 

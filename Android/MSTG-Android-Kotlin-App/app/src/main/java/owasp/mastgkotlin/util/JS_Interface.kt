@@ -1,4 +1,4 @@
-package sg.vantagepoint.mstgkotlin.util
+package owasp.mastgkotlin.util
 
 import android.content.Context
 import android.widget.Toast

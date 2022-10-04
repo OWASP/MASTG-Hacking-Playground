@@ -1,11 +1,11 @@
-package sg.vantagepoint.mstgkotlin
+package owasp.mastgkotlin
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.webkit.WebSettings
 import android.webkit.WebView
 import org.jetbrains.anko.find
+import owasp.mastgkotlin.R
 
 class SecureWebViewActivity : AppCompatActivity() {
 

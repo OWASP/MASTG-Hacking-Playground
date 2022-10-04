@@ -1,4 +1,4 @@
-package sg.vantagepoint.mstgkotlin
+package owasp.mastgkotlin
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,10 +6,9 @@ import android.util.Log
 import android.webkit.WebChromeClient
 import android.webkit.WebSettings
 import android.webkit.WebView
-import kotlinx.android.synthetic.main.activity_insecure_web_view.view.*
 import org.jetbrains.anko.find
-import org.jetbrains.anko.longToast
-import sg.vantagepoint.mstgkotlin.util.JS_Interface
+import owasp.mastgkotlin.util.JS_Interface
+import owasp.mastgkotlin.R
 
 class InsecureWebViewActivity : AppCompatActivity() {
 

@@ -1,16 +1,15 @@
-package sg.vantagepoint.mstgkotlin
+package owasp.mastgkotlin
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_menu.*
-import kotlinx.android.synthetic.main.activity_menu.view.*
 import org.jetbrains.anko.find
 import org.jetbrains.anko.longToast
 import org.jetbrains.anko.startActivity
+import owasp.mastgkotlin.R
 import java.io.BufferedReader
 import java.io.File
 import java.io.InputStreamReader

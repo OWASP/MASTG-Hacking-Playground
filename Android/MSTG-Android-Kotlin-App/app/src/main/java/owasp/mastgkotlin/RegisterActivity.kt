@@ -1,4 +1,4 @@
-package sg.vantagepoint.mstgkotlin
+package owasp.mastgkotlin
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

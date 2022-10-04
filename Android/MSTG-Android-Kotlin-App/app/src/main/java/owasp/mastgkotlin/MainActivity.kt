@@ -1,4 +1,4 @@
-package sg.vantagepoint.mstgkotlin
+package owasp.mastgkotlin
 
 import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
@@ -10,6 +10,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ProgressBar
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.github.kittinunf.fuel.Fuel
 import com.github.kittinunf.fuel.android.extension.responseJson
 import com.github.kittinunf.fuel.core.FuelManager
@@ -17,7 +18,7 @@ import de.adorsys.android.securestoragelibrary.SecurePreferences
 import org.jetbrains.anko.find
 import org.jetbrains.anko.longToast
 import org.jetbrains.anko.startActivity
-import org.jetbrains.anko.toast
+import owasp.mastgkotlin.R
 
 class MainActivity : AppCompatActivity() {
 
@@ -29,7 +30,9 @@ class MainActivity : AppCompatActivity() {
     private var prefsInsecure: SharedPreferences? = null // this.getSharedPreferences(jwtInsecureFilename, 0)
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        installSplashScreen()
         super.onCreate(savedInstanceState)
+
         setContentView(R.layout.activity_main)
 
         val loginemail = find<EditText>(R.id.etemail)
