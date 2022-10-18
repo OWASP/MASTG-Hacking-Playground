@@ -1,3 +1,9 @@
-This is the source code for MSTG Kotlin App prior to pushing into public Github as part of the MSTG Hacking Playground.
+# MASTG Hacking Playground Kotlin App
 
+## Building
 
+Run `./gradlew assembleDebug`
+
+## Notes
+
+1. The logo may appear too large for the Splash screen when imported as an SVG. It has been imported as an image asset (mipmap) as per here: https://stackoverflow.com/a/72315895
