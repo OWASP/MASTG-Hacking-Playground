@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: Android/MSTG-Android-Kotlin-App
+        working-directory: Android/MASTG-Android-Kotlin-App
 
     steps:
       - name: Checkout the code
@@ -47,14 +47,14 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: app-debug
-          path: ./Android/MSTG-Android-Kotlin-App/app/build/outputs/apk/debug/app-debug.apk
+          path: ./Android/MASTG-Android-Kotlin-App/app/build/outputs/apk/debug/app-debug.apk
 
   release:
     runs-on: ubuntu-latest
     if: startsWith(github.ref, 'refs/tags/')
     defaults:
       run:
-        working-directory: Android/MSTG-Android-Kotlin-App
+        working-directory: Android/MASTG-Android-Kotlin-App
 
     steps:
       - name: Checkout the code
@@ -81,7 +81,7 @@ jobs:
         # ID used to access action output
         id: sign_app
         with:
-          releaseDir: ./Android/MSTG-Android-Kotlin-App/app/build/outputs/apk/release
+          releaseDir: ./Android/MASTG-Android-Kotlin-App/app/build/outputs/apk/release
           signingKey: ${{ secrets.KEYSTORE }}
           keyAlias: ${{ secrets.SIGNING_KEY_ALIAS }}
           keyStorePassword: ${{ secrets.SIGNING_STORE_PASSWORD }}
@@ -97,6 +97,6 @@ jobs:
           draft: true
           generate_release_notes: true
           files: |
-            ./Android/MSTG-Android-Kotlin-App/app/build/outputs/apk/release/MASTG-Android.apk
+            ./Android/MASTG-Android-Kotlin-App/app/build/outputs/apk/release/MASTG-Android.apk
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
