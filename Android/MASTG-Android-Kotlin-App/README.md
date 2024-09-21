@@ -1,6 +1,6 @@
 # MASTG Hacking Playground Kotlin App
 
-## Building
+## Building 
 
 Run `./gradlew assembleDebug`
 
